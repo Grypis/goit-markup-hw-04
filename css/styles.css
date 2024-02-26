@@ -94,12 +94,12 @@ body {
     color: #2e2f42;
 }
 
-.lowdash {
+.current {
     position: relative;
     color: #404bbf;
 }
 
-.lowdash::after {
+.current::after {
     content: "";
     position: absolute;
     left: 0;
