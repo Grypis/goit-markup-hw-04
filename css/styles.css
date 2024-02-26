@@ -63,6 +63,9 @@ body {
 
 .page-header {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -125,7 +128,7 @@ body {
     color: #2e2f42;
     padding: 24px 0;
     display: block;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-link:active {
@@ -138,10 +141,6 @@ body {
 
 .menu-link:hover,
 .menu-link:focus {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     color: #404bbf;
 }
 
@@ -158,12 +157,13 @@ body {
     
 }
 
-.page-address-item {
+.page-address-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .page-address-link:hover,
@@ -176,14 +176,13 @@ body {
 .page-hero {
     background-color: #2e2f42;
     padding: 188px 0;
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)), 
-        url(../images/hero-background/people-office\ 1.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-background/people-office.jpg);
     max-width: 1440px;
-    block-size: cover;
+    background-size: cover;
     margin-right: auto;
     margin-left: auto;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .main-title {
