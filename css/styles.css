@@ -354,6 +354,9 @@ body {
     background-color: #404bbf;
 }
 
+.page-team-social-icons {
+    fill: #f4f4fd;
+}
 /* ================== /Our team ======================= */
 
 /* ===================== Our Portfolio =================== */
@@ -501,7 +504,7 @@ body {
 .page-footer-menu-icons {
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 16px;
     margin-top: 8px;
 }
 
@@ -526,6 +529,6 @@ body {
 }
 
 .page-footer-icons {
-    fill: #fff;
+    fill: #f4f4fd; 
 }
 /* ======================= /Footer ========================= */
