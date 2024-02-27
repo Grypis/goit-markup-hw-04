@@ -453,6 +453,9 @@ body {
 .page-footer {
     background-color: #2e2f42;
     padding: 100px 0;
+}
+
+.container-footer {
     display: flex;
     align-items: baseline;
 }
